@@ -1,7 +1,8 @@
 @import "stylesheets/less/grid.less";
 
 @columns: 4;
-@total-width: 95%; // Switch from pixels to percentages
+@column-width: 150;
+@gutter-width: 20;
 
 .data {
     .column(1);
@@ -13,5 +14,8 @@
     .column(1);
     border: 1px solid black;
     min-height: 10em;
+}
 
+section {
+    max-width: 700px;
 }

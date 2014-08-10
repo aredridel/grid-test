@@ -13,16 +13,19 @@ body:after {
 .data {
   display: inline;
   float: left;
-  width: 17.8125%;
-  margin: 0 2.96875%;
+  width: 150px;
+  margin: 0 10px;
   border: 1px solid black;
   min-height: 5em;
 }
 .double {
   display: inline;
   float: left;
-  width: 17.8125%;
-  margin: 0 2.96875%;
+  width: 150px;
+  margin: 0 10px;
   border: 1px solid black;
   min-height: 10em;
+}
+section {
+  max-width: 700px;
 }
