@@ -15,4 +15,6 @@ body:after {
   float: left;
   width: 12.5%;
   margin: 0 2.08333333%;
+  border: 1px solid black;
+  min-height: 5em;
 }
