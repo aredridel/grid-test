@@ -13,8 +13,16 @@ body:after {
 .data {
   display: inline;
   float: left;
-  width: 12.5%;
-  margin: 0 2.08333333%;
+  width: 17.8125%;
+  margin: 0 2.96875%;
   border: 1px solid black;
   min-height: 5em;
+}
+.double {
+  display: inline;
+  float: left;
+  width: 17.8125%;
+  margin: 0 2.96875%;
+  border: 1px solid black;
+  min-height: 10em;
 }

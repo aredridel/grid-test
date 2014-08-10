@@ -1,10 +1,17 @@
 @import "stylesheets/less/grid.less";
 
-@columns: 6;
-@total-width: 100%; // Switch from pixels to percentages
+@columns: 4;
+@total-width: 95%; // Switch from pixels to percentages
 
 .data {
     .column(1);
     border: 1px solid black;
     min-height: 5em;
+}
+
+.double {
+    .column(1);
+    border: 1px solid black;
+    min-height: 10em;
+
 }
